@@ -1,7 +1,7 @@
 <!--Section: Contact v.2-->
 <main>
 <br><br>
-    <div class="container">
+<div class="container">
 <section class="mb-4">
 
     <!--Section heading-->
@@ -109,7 +109,6 @@
         <!--Grid column-->
 
     </div>
-
 </section>
 </div>
 <!--Section: Contact v.2-->

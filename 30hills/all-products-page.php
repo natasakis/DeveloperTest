@@ -37,16 +37,16 @@ try {
     if (!empty($_GET['categ'])) {
         $categ = $_GET['categ'];
     }
-    if ($term != "") {
-        $products = Product::filteredProducts($term);
-    }
     if ($sort != "") {
         $products = Product::sortProductBy($sort, $products);
+    }
+    if ($term != "") {
+        $products = Product::filteredProducts($term);
     }
     if ($categ != "") {
         $products = Product::getCategoryProducts($categ,$products);
     }
-    
+        
     if ((!empty($_GET['select'])) && $_GET['select']!=count($products) ){
         $select = $_GET['select'];
         $_SESSION['select']=$select;

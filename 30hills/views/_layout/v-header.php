@@ -13,7 +13,7 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-white fixed-top">
             <div class="container">
-                <a class="navbar-brand text-dark h1" href="#"><div style="letter-spacing: 2px; ">
+                <a class="navbar-brand text-dark h1" href="./index.php"><div style="letter-spacing: 2px; ">
                     <span class="h1"><strong>SHOP</strong></span>
                 </div></a>
                 <div class="d-flex">

@@ -6,6 +6,5 @@
         <div class="text-center m-5">
             <a class="btn btn-dark" href="./index.php">Back to the homepage</a>
         </div>
-        
     </div>
 </main>

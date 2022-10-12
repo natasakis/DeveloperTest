@@ -50,11 +50,6 @@ class ShoppingCart
         return $this->items;
     }
 
-    public function checkout()
-    {
-        //
-    }
-
     public function updateSession()
     {
         $_SESSION['cart'] = [];
@@ -66,3 +61,5 @@ class ShoppingCart
         }
     }
 }
+
+

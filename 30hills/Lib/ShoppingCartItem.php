@@ -42,5 +42,4 @@ class ShoppingCartItem {
         $this->quantity = $quantity;
         return $this;
     }
-
 }
