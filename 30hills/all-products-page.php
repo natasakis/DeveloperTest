@@ -37,11 +37,11 @@ try {
     if (!empty($_GET['categ'])) {
         $categ = $_GET['categ'];
     }
-    if ($sort != "") {
-        $products = Product::sortProductBy($sort, $products);
-    }
     if ($term != "") {
         $products = Product::filteredProducts($term);
+    }
+    if ($sort != "") {
+        $products = Product::sortProductBy($sort, $products);
     }
     if ($categ != "") {
         $products = Product::getCategoryProducts($categ,$products);

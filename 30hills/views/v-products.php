@@ -24,7 +24,7 @@
             </div>
             <div class="col-2">
                 <select name="categ" id="categ" class="input-group-text bg-white">
-                    <option>Category</option>
+                    <option value="">Category</option>
                     <option value="accessories" <?php echo (isset($_GET['categ']) && $_GET['categ'] === 'accessories') ? 'selected' : ''; ?>>accessories</option>
                     <option value="apparel" <?php echo (isset($_GET['categ']) && $_GET['categ'] === 'apparel') ? 'selected' : ''; ?>>apparel</option>
                     <option value="bags" <?php echo (isset($_GET['categ']) && $_GET['categ'] === 'bags') ? 'selected' : ''; ?>>bags</option>
@@ -67,7 +67,7 @@
                 <ul class="pagination d-flex justify-content-center">
                     <li class="page-item">
     <?php 
-    for ($i=1; $i<=$total_pages; $i++) echo '<a class="page-link  text-dark" href="all-products-page.php?page='.$i.'&sort='.$sort.'&select='.$select.'&term='.$term.'">'.$i.'</a></li>' ?>
+    for ($i=1; $i<=$total_pages; $i++) echo '<a class="page-link  text-dark" href="all-products-page.php?page='.$i.'&sort='.$sort.'&select='.$select.'&categ='.$categ.'&term='.$term.'">'.$i.'</a></li>' ?>
                 </ul>
             </nav>
         </div>
